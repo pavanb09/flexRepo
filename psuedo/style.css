@@ -1,0 +1,69 @@
+.container{
+    width:100%;
+    height: 450px;
+    border: 2px solid aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all 1s ease;
+}
+
+.image{
+    width: 200px;
+    height: 250px;
+    border: 2px solid;
+
+
+}
+
+.image>img{
+    width: 100%;
+    height: 100%;
+    
+}
+.box1>.content{
+    width: 220px;
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    display: none;
+}
+.box2>.content{
+    width: 220px;
+    background-color: rgb(155, 83, 0);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    display: none;
+}
+.box3>.content{
+    width: 220px;
+    color: white;
+    background-color: rgb(5, 9, 10);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    display: none;
+}
+.box4>.content{
+    width: 220px;
+    background-color: rgb(202, 45, 9);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    display: none;
+}
+.content img{
+    width: 80px;
+    height: 100px
+   
+}
+
+.box:hover .content{
+    display: block;
+    margin: 10px;
+}
+.box:hover .image{
+    display: none;
+    padding: 10px;
+}
