@@ -1,0 +1,37 @@
+.container{
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-size: 65px;
+    padding-left: 10px;
+
+    transition: all 0.3s ease;
+
+}
+.container>.row1>.box:nth-child(odd){
+    background-color: white;
+    color: black;
+
+}
+.container>.row2>.box:nth-child(even){
+    background-color: white;
+    color: black;
+   
+}
+
+.rowfirst>.box:hover{
+    font-size: 85px;
+}
