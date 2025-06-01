@@ -12,23 +12,24 @@
 .box{
     height: 100px;
     width: 100px;
-    background-color: rgb(43, 11, 11);
+    background-color: black;
     border: 2px solid black;
-    color: white;
     font-size: 65px;
-    padding-left: 10px;
-
+    padding-left: 15px;
+     color: aliceblue;
     transition: all 0.3s ease;
 
 }
 .container>.row1>.box:nth-child(odd){
-    background-color: bisque;
+    background-color:white;
     color: black;
-
+    
 }
 .container>.row2>.box:nth-child(even){
-    background-color: bisque;
+    background-color:white;
     color: black;
+   
+    
    
 }
 
