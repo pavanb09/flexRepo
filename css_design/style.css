@@ -1,0 +1,33 @@
+.main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 55px;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(147, 9, 9);
+    border: 2px solid;
+}
+.rectangle{
+    height: 180px;
+    width:550px;
+    background-color: green;
+}

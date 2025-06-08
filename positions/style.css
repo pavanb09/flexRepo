@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+  
+    margin: 15px;
+    margin-left: 25px;
+}
+
+.item{
+    width: 290px;
+    /* border: 1px solid; */
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin: 6px;
+}
+img{
+    width: 100%;
+}
+h3{
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    padding: 8px;
+}
